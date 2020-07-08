@@ -1,0 +1,150 @@
+body {
+  background-image: url("../resources/background.jpg");
+  font-family: "Gill Sans", sans-serif;
+}
+
+#border {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 80%;
+}
+
+input {
+  max-width: 500px;
+  width: 80%;
+  min-width: 50px;
+  height: 20px;
+}
+
+input[type=submit] {padding-top: 2px ; background:#A5A5AF; border:0 none;
+    cursor:pointer;
+    border-radius: 2px;
+    }
+
+::placeholder {
+  opacity: 0.5;
+}
+
+#logo {
+  padding: 15px;
+  float:left;
+}
+
+span.own {
+  color:#6bef97;
+}
+
+span.owe {
+  color:#c64949;
+}
+
+a#addgroup {
+  position: relative;
+  float: right;
+}
+
+span#group {
+  color:#7c40e5;
+}
+
+.delete_bill {
+  background: transparent;
+}
+
+p.status {
+  text-align: right;
+  padding-left: auto;
+  font-size: 110%;
+}
+
+span#groupbalances {
+  color:#7c40e5;
+  font-size: 80%;
+}
+
+span#bills {
+  color:#7c40e5;
+  font-size: 130%;
+}
+
+#form {
+  padding: 50px;
+  text-align: left;
+}
+
+#menu {
+  padding-bottom: 70px;
+}
+
+#menu_settings {
+  padding: 20px;
+  font-size: 150%;
+  float:right;
+}
+
+.row {
+    display: flex;
+}
+
+.column_group {
+    width: 20%;
+    box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.3);
+    min-height: 300px;
+    margin-right: 25px;
+    min-width: 125px;
+}
+
+.column_bills {
+    width: 60%;
+    box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.3);
+    margin-right: 15px;
+    min-height: 300px;
+    min-width: 200px;
+}
+
+.column_groupbalances {
+    width: 20%;
+    box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.3);
+    margin-right: 15px;
+    min-height: 300px;
+    min-width: 125px;
+}
+
+li {
+  text-align: left;
+  font-size: 150%;
+}
+
+#content {
+  text-align: center;
+  color: #6C648B;
+  padding: auto;
+}
+
+#list {
+  text-align: left;
+  font-weight: bold;
+}
+
+#register {
+  text-align: left;
+}
+
+#h1_special {
+  color: #7c40e5;
+}
+
+a.nospecial {
+  color: #6C648B;
+}
+
+a {
+  color: #023475;
+  text-decoration: none;
+  padding-right: 20px;
+}
+a:hover {
+  background-color: #6BBAA7;
+}
