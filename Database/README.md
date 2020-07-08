@@ -1,6 +1,6 @@
 A database was designed with the following Requirements.
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+(https://github.com/mofanelam/University_Projects/blob/master/Database/Images/SQL_Initialize_requirements.png)
 
 
 
