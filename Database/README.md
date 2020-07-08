@@ -1,5 +1,6 @@
 A database was designed with the following Requirements.
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
 
