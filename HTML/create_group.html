@@ -1,0 +1,51 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html>
+  <head>
+  <?php session_start(); ?>
+    <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8">
+    <title>Split</title>
+  </head>
+  <body>
+    <div id='border'>
+      <div id='menu'>
+        <div id='logo'>
+          <img src="resources/logo_white.png" alt="logo" style ="width:100px ;">
+        </div>
+        <div id='menu_settings'>
+          <a href='all_bills.html'>ALL BILLS</a>
+          <a href='register.php'>MY ACCOUNT</a>
+        </div>
+      </div>
+      <div id='content'>
+        <h1 id='h1_special'> Start a New Group </h1>
+
+        <div id ='form'>
+          <form action="add_group.php" method="POST">
+            <h2 id='h2_group'> The Group Name is: </h2>
+            <input type="text" name="group_name" id="group_name" required> <br><br>
+            <b>Group Members: </b><br>
+
+            <!-- Database -> user's name and bracketed with email.   -->
+            <p> Jeff (jeff@gmail.com) </p>
+
+            <input type="text" name="member1_name" class="member_name" id="member1_name" placeholder="Name">
+            <input type="email" name="member1_email" class="member_email" id="member1_email" placeholder="Email (optional)" > <br><br>
+
+            <input type="text" name="member2_name" class="member_name" id="member2_name" placeholder="Name">
+            <input type="email" name="member2_email" class="member_email" id="member2_email" placeholder="Email (optional)" > <br><br>
+
+            <input type="text" name="member3_name" class="member_name" id="member3_name" placeholder="Name">
+            <input type="email" name="member3_email" class="member_email" id="member3_email" placeholder="Email (optional)" > <br><br>
+
+            <input type="submit" value="Save!"><br><br>
+          </form>
+        </div>
+      </div>
+      <?php
+      error_reporting(E_ALL);
+      ini_set(?~@~\display_errors?~@~], 1);
+      ?>
+    </div>
+  </body>
+</html>

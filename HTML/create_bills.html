@@ -1,0 +1,43 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html>
+  <head>
+  <?php session_start(); ?>
+    <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8">
+    <title>Split</title>
+  </head>
+  <body>
+    <div id='border'>
+      <div id='menu'>
+        <div id='logo'>
+          <img src="resources/logo_white.png" alt="logo" style ="width:100px ;">
+        </div>
+        <div id='menu_settings'>
+          <a href='all_bills.html'>ALL BILLS</a>
+          <a href='register.php'>MY ACCOUNT</a>
+        </div>
+      </div>
+      <div id='content'>
+        <h1 id='h1_special'> Create A Bill you Have Paid </h1>
+        <p id='group_to_bill'>With you and Flat25 </p>
+        <div id ='form'>
+          <form action="add_bill.php" method="POST">
+            <b>Title (gas, rent, electricity...)*</b><br><br>
+            <input type="text" name="title" id="bill_title" required> <br><br>
+            <b>Amount*</b><br><br>
+            <input type="number" name="amount" id="bill_amount" required> <br><br>
+            <b>Date You have paid the Bill*</b><br><br>
+            <input type="date" name="date" id="bill_date" required> <br><br>
+            <p>You can add a note to it (optional)</p>
+            <input type="text" name="note" id="bill_note" maxlength="50"> <br><br>
+            <input type="submit" value="Save!"><br><br>
+          </form>
+        </div>
+      </div>
+      <?php
+      error_reporting(E_ALL);
+      ini_set(?~@~\display_errors?~@~], 1);
+      ?>
+    </div>
+  </body>
+</html>

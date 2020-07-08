@@ -1,0 +1,37 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html>
+  <head>
+  <?php session_start(); ?>
+    <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8">
+    <title>Split</title>
+  </head>
+  <body>
+    <div id='border'>
+      <div id='menu'>
+        <div id='logo'>
+          <img src="resources/logo_white.png" alt="logo" style ="width:100px ;">
+        </div>
+        <div id='menu_settings'>
+          <a href='all_bills.html'>ALL BILLS</a>
+          <a href='register.php'>MY ACCOUNT</a>
+        </div>
+      </div>
+      <div id='content'>
+        <h1 id='h1_special'> Electricity - March </h1>
+        <div id='bill'>
+          <p> Your Bill: Electricity </p>
+          <p> Amount: £30 </p>
+          <p> Time: March </p>
+          <p> Note: Test </p>
+          <p> Paid by: Emily </p>
+          <p> Status: Paid </p>
+        </div>
+      </div>
+      <?php
+      error_reporting(E_ALL);
+      ini_set(?~@~\display_errors?~@~], 1);
+      ?>
+    </div>
+  </body>
+</html>

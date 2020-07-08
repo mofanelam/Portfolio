@@ -1,0 +1,42 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/register.css" type="text/css" charset="utf-8">
+    <title>Register</title>
+  </head>
+  <body>
+    <div id='border'>
+      <div id='logo'>
+        <img src="resources/logo_white.png" alt="logo" style ="width:100px ;">
+        <span id='signin'>
+          <button type="button" class="button button1" onclick="location.href='index.html'">Sign in </button>
+        </span>
+      </div>
+      <div id='content'>
+        <div id='register'>
+          <h1> Create your Split Account </h1>
+          <br>
+          <p>
+            Sign up to make your life easier:D
+          </p>
+          <br>
+          <div id='filling'>
+          </div>
+          <form action="registeraccount.php" method="POST">
+
+          <input type="email" name="email" placeholder="Your Email" required> <br><br>
+
+          <input type="text" name="username" placeholder="Username" required> <br><br>
+
+          <input type="password" name="password" placeholder="Password" required> <br><br>
+
+          <input type="password" name="Con_password"placeholder="Re-enter Your Password" required> <br><br>
+
+          <input type="submit" value="Register!"><br><br>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

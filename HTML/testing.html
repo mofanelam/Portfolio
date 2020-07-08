@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/allbills.css" type="text/css" charset="utf-8">
+    <title>Split</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id='border'>
+      <div id='menu'>
+        <div id='menu_settings'>
+          <a href='create_bills.php'>CREATE NEW BILLS</a>
+          <a href='register.php'>MY ACCOUNT</a>
+          <a href='process_logout.php'>LOG OUT </a>
+        </div>
+      </div>
+      <div id='content'>
+        <div id='logo_mid'>
+          <img src="resources/logo_white.png" alt="logo" style ="width:200px ;">
+        </div>
+        <br>
+        <div class='row'>
+          <div class='column_group'>
+            <span id='group'><h1> Groups </h1> </span>
+            <ul>
+              <li> <a class="nospecial" href="#"> Flat 25 </a> </li> <br>
+            </ul>
+            <a id="addgroup" href="create_group.php"> Add New Group </a>
+          </div>
+          <div class='column_bills'>
+            <span id='bills'> <h1> Bills </h1>  </span>
+            <!--<span id='own'><h1> Own </h1></span>
+            <span id='owe'><h1> Owe </h1></span> -->
+            <ul>
+              <li> <a class='nospecial' href='bill.php?id=1'>Gas</a>&emsp;&emsp;Date:2018-02-28</li> <button class='delete_bill'>   <img src="resources/delete_button.png" width="90" height="90" alt="submit" /> </button> <p class='status'> Status: <span class='own'> Paid </span></p> <br><li> <a class='nospecial' href='bill.php?id=2'>Rent</a>&emsp;&emsp;Date:2018-02-27</li> <button class='delete_bill'> </button>                 <p class='status'> Status: <span class='own'> Paid </span></p> <br>
+            </ul>
+          </div>
+          <div class='column_groupbalances'>
+            <span id='groupbalances'><h1> Group Balances </h1> </span>
+            <p>
+              <b>Jeff</b> <br>
+              <span class="owe">owes £20</span><br>
+            </p>
+            <p>
+              <b>Emily</b> <br>
+              <span class="own">gets back £40</span><br>
+            </p>
+            <p>
+              <b>Leo</b> <br>
+              <span class="owe">owes £10</span><br>
+            </p>
+              <p>
+              <b>Edwin</b> <br>
+              <span class="owe">owes £10</span><br>
+            </p>
+          </div>
+
+
+              </div>
+    </div>
+  </body>
+</html>
