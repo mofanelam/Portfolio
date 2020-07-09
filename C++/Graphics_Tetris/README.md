@@ -7,4 +7,4 @@ There are 7 pieces, each with 4 squares / cubes. The player can move the pieces 
 
 A pseudo-3D display was used to make it more attractive, the gameplay look as follow:
 
-![Image of the gameplay](https://github.com/mofanelam/University_Projects/blob/master/C++/Graphics_Tetris/Images/Tetris_gameplay.png)
+![Image of the gameplay](https://github.com/mofanelam/University_Projects/blob/master/C%2B%2B/Graphics_Tetris/Image/Tetris_gameplay.png)
