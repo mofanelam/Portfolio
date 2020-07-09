@@ -1,7 +1,7 @@
 # Circular_Match
 
 From
-![Image of the gameplay](https://github.com/mofanelam/University_Projects/blob/master/C%2B%2B/Graphics_Tetris/Image/Tetris_gameplay.png)
+![Image of the original](https://github.com/mofanelam/University_Projects/blob/master/Digital%20Image%20Processing/Circular_Match/jeep.png)
 
 To
-![Image of the gameplay](https://github.com/mofanelam/University_Projects/blob/master/C%2B%2B/Graphics_Tetris/Image/Tetris_gameplay.png)
+![Image of the forgery](https://github.com/mofanelam/University_Projects/blob/master/Digital%20Image%20Processing/Circular_Match/forgery.pdf)
