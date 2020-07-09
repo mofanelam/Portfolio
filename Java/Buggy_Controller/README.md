@@ -1,7 +1,7 @@
 A physical buggy with one sonic sensor and two light sensors (Lejos) was given.
 The task was to design a program that guides the robot to the top right corner.
 
-![Image of the task](https://octodex.github.com/images/yaktocat.png)
+![Image of the task](https://github.com/mofanelam/University_Projects/blob/master/Java/Buggy_Controller/Image/Task.png)
 
 Note: The goal is always the top right corner, assume that the robot always starts at A = 0,0.
 
