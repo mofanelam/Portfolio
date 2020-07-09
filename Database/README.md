@@ -1,9 +1,9 @@
-## A database was designed with the following Requirements.
+## A database was designed with the following Requirements. (Y2)
 
 ![Image of the Requirement](https://github.com/mofanelam/University_Projects/blob/master/Database/Images/SQL_Initialize_requirements.png)
 
 
-The database was initialized with cs258_cw_setup.sql and test data were inserted with cw258_data.sql.
+The database was initialized with setup.sql and test data were inserted with data.sql.
 
 
 Also, the following applications applications are added.
