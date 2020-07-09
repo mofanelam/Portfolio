@@ -1,0 +1,8 @@
+# Digital Image Processing (MATLAB) (Y3)
+* Denoising using low/high pass filters (./Denoise/denoise.m)
+* Histogram matching (./Histogram_Matching/myHistMatch_RGB.m)
+* Watermarking in Pixel Level (./Watermark_Pixel_Level/wtm_pixel.m)
+* Watermarking in Frequency Level (./Watermark_Frequency_Level/wtm_frequency.m)
+* JPEG Compression Rate Difference (./JPEG_Compression/JPEG_Compression.m)
+* JPEG Ghost Analysis (./JPEG_Ghost/jpeg_ghosts.m)
+* Copy-Move Forgery (./Circular_Match/cirMatch.m)
